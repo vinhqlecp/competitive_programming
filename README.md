@@ -2,10 +2,10 @@
 
 - [I. Data Structures and Libraries](#I-Data-Structures-and-Libraries)
     - [1. Linear DS with Built-in Libraries](#1-Linear-DS-with-Built-in-Libraries)
-        - [1.1 Array](#1-1-Array)
-            - [1.1.1 Static (Fixed-size) Array](#1-1-1-Static-(Fixed-size)-Array)
-            - [1.1.2 Dynamic (Resizeable) Array](#1-1-2-Dynamic-(Resizeable)-Array)
-            - [1.1.3 Array of Booleans](#1-1-3-Array-of-Booleans)
+        - [1.1 Array](#11-Array)
+            - [1.1.1 Static (Fixed-size) Array](#111-Static-(Fixed-size)-Array)
+            - [1.1.2 Dynamic (Resizeable) Array](#112-Dynamic-(Resizeable)-Array)
+            - [1.1.3 Array of Booleans](#113-Array-of-Booleans)
 
 # I. Data Structures and Libraries
 ## 1. Linear DS with Built-in Libraries
