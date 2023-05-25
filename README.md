@@ -6,6 +6,7 @@
             - [1.1.1 Static (Fixed-size) Array](#111-Static-Fixed-size-Array)
             - [1.1.2 Dynamic (Resizeable) Array](#112-Dynamic-Resizeable-Array)
             - [1.1.3 Array of Booleans](#113-Array-of-Booleans)
+            - [1.1.4 Sorting & Searching](#111-Sorting-&-Searching)
 
 # I. Data Structures and Libraries
 ## 1. Linear DS with Built-in Libraries
@@ -24,6 +25,10 @@ There are two operations commonly performed on arrays: **_Sorting_** and **_Sear
 #### 1.1.3 Array of Booleans
 * If our array needs only to contain Boolean values (1/true and 0/false), we can use an alternative data structure other than a plain array—a C++ STL bitset (Java BitSet). <br>
 * However if our array of Booleans is small (not more than 62 Booleans), it is beneficial to use bitmask data structure. <br>
+
+#### 1.1.4 Sorting & Searching
+It is appropriate to discuss two operations commonly performed on arrays: Sorting and Searching. <br>
+
 
 ## 2. Non-Linear DS with Built-in Libraries
 ## 3. DS with Our Own Libraries
