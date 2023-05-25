@@ -6,7 +6,7 @@
             - [1.1.1 Static (Fixed-size) Array](#111-Static-Fixed-size-Array)
             - [1.1.2 Dynamic (Resizeable) Array](#112-Dynamic-Resizeable-Array)
             - [1.1.3 Array of Booleans](#113-Array-of-Booleans)
-            - [1.1.4 Sorting & Searching](#111-Sorting-&-Searching)
+            - [1.1.4 Sorting & Searching](#114-sorting--searching)
 
 # I. Data Structures and Libraries
 ## 1. Linear DS with Built-in Libraries
