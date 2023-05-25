@@ -28,7 +28,36 @@ There are two operations commonly performed on arrays: **_Sorting_** and **_Sear
 
 #### 1.1.4 Sorting & Searching
 It is appropriate to discuss two operations commonly performed on arrays: Sorting and Searching. <br>
+There are many **_sorting_** algorithms <br>
+* **_O(n^2) comparison-based sorting algorithms_**: Bubble/Selection/Insertion Sort... These algorithms are (awfully) slow and usually avoided in programming contests, though understanding them might help you solve a few specific problems, e.g., Insertion Sort actually runs in O(n) when the input array is almost sorted.
+* **_O(nlogn) comparison-based sorting algorithms_**: Merge/Quick5/Heap Sort... These algorithms are the default choice in programming contests as an O(n log n) complexity is optimal for comparison-based sorting. Therefore, these sorting algorithms run in the ‘best possible’ time in most cases. we can simply use sort, stable sort, or partial sort in C++ STL algorithm for basic sorting tasks. We only need to specify the required comparison function (which can be a lambda expression) and these effecient sorting library routines will handle the rest. Following example source code give us how to use C++ STL sorting (suppose that we have a vector<int> A):
 
+<pre><code>
+// technique 1, create a custom comparison function
+bool cmp(const int a, const int b) {
+    return a > b;
+}
+
+// Using sort with compare function
+sort(A.begin(), A.end(), cmp);
+</code></pre>
+
+<pre><code>
+// technique 2, use an anonymous function (lambda expression)
+sort(A.begin(), A.end(), [](const int a, const int b){ return a > b; }));
+</code></pre>
+    
+<pre><code>
+// technique 3, use reverse iterator
+sort(A.rbegin(), A.rend()); // [1 2 3 4 5] -> [5 4 3 2 1]
+</code></pre>
+
+* **_O(n) Special purpose sorting algorithms_**: Counting/Radix/Bucket Sort,... Although rarely used, these special purpose algorithms are good to know as they can reduce the required sorting time if the data has certain special characteristics
+    
+There are generally three common methods to **_search_** for an item in an array: <br>
+
+* **_O(n) Linear Search_**: Consider every item from index 0 to index n-1 (try to avoid this).
+* **_O(log n) Binary Search_**: Use lower bound, upper bound, or binary search in C++ STL algorithm. If the input array is unsorted, it is necessary to sort the array at least once (using one of the O(n log n) sorting algorithms above) before executing one/many Binary Search(es).
 
 ## 2. Non-Linear DS with Built-in Libraries
 ## 3. DS with Our Own Libraries
